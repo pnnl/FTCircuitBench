@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/pnnl/FTCircuitBench/actions/workflows/ci.yml/badge.svg)](https://github.com/pnnl/FTCircuitBench/actions/workflows/ci.yml)
 [![arXiv](https://img.shields.io/badge/arXiv-2601.03185-b31b1b.svg)](https://arxiv.org/abs/2601.03185)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-BSD--2--Clause-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 
 A benchmark suite for fault-tolerant quantum circuit compilation and architecture, covering Clifford+T synthesis (Gridsynth and Solovay-Kitaev) and Pauli-Based Computation (PBC).
@@ -314,3 +314,20 @@ The `gridsynth` Haskell binary enables the Python-fallback Gridsynth path; the C
 **Long benchmark runs**
 
 `generate_benchmarks.py` exercises every circuit in `qasm/` and can take hours. To run a subset, see the CLI flags in [`docs/examples.md`](docs/examples.md) or the `analyze_circuit.py` per-circuit invocation.
+
+## Disclaimer
+
+This material was prepared as an account of work sponsored by an agency of the United States Government. Neither the United States Government nor the United States Department of Energy, nor Battelle, nor any of their employees, nor any jurisdiction or organization that has cooperated in the development of these materials, makes any warranty, express or implied, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, software, or process disclosed, or represents that its use would not infringe privately owned rights.
+
+Reference herein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise does not necessarily constitute or imply its endorsement, recommendation, or favoring by the United States Government or any agency thereof, or Battelle Memorial Institute. The views and opinions of authors expressed herein do not necessarily state or reflect those of the United States Government or any agency thereof.
+
+<p align="center">
+PACIFIC NORTHWEST NATIONAL LABORATORY<br>
+operated by<br>
+BATTELLE<br>
+for the<br>
+UNITED STATES DEPARTMENT OF ENERGY<br>
+under Contract DE-AC05-76RL01830
+</p>
+
+See [`DISCLAIMER`](DISCLAIMER) for the full text.

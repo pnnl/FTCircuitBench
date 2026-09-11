@@ -97,8 +97,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- License metadata aligned to MIT across the project. Previously `pyproject.toml`
-  declared Apache-2.0 while `LICENSE` was MIT; the canonical license is MIT.
+- Project is now licensed under the BSD 2-Clause License (copyright Battelle
+  Memorial Institute). License metadata in `pyproject.toml`, `CITATION.cff`,
+  and the `README.md` badge updated to match `LICENSE`; a PNNL `DISCLAIMER`
+  file was added at the repository root and summarised at the end of
+  `README.md`.
 - Install path is now uv-first (`uv sync --all-extras`); pip remains a documented
   fallback in `README.md` and `docs/installation.md`.
 - Regenerated `docs/api.md` against the actual public API surface exported from
